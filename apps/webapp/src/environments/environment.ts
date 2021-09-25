@@ -5,6 +5,7 @@ export const environment: {
 } = {
   production: false,
   signaling: 'http://localhost:3333',
+  // signaling: 'https://gateway.speek.video',
   iceServers: [
     {
       urls: ['stun:54.90.98.123:3478'],
